@@ -32,5 +32,9 @@
             </div>
             
         </div>
+        <div id = "bg">
+          <img id="enterDoorpic" src="./enterDoor.jpg">
+        </div>
+    
     </body>
 </HTML>

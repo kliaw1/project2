@@ -16,9 +16,9 @@
                         echo "<p>Warning!!!Somethng went wrong?! Your progress is currently not being recorded!!</p>";
                     }
             ?>
-
-            Instead of your room, you enter a forest. What happened to your stuff?
             <br>
+            Instead of your room, you enter a forest. What happened to your stuff?
+           
             <br>
             Placed conspicuously in front of you is a table. There's a die on it.
             <br>
@@ -27,13 +27,15 @@
             <br>
             <br>
             <a href = "./takeDie.php"><p>Take the dice?</p></a>
-            <br>
-            <br>
+        
             <a href = "./end2.php"><p>Or leave it behind?</p></a>
-
+            <br>
+            <br>
             
         </div>
-       
+        <div id = "bg">
+        <img id="lostforestpic" src="./lostforest.jpg">
+        </div>
     
         
     </body>
