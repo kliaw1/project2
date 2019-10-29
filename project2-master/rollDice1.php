@@ -18,23 +18,33 @@
                     $roll = $_SESSION['diceroll'];
             
                 echo "
-                You rolled a $roll and open the door and walk in. It's still not your room and there's another table in front of you.
-
+                <br> 
+                You rolled a $roll. The ground vibrates and there's a hum in the air before it suddenly stops. It's quiet.
+                
+                <br>You open the door and walk in. It's still not your room and there's another table in front of you.
                 <br> You turn around. The door is gone. You turn back and there's a key on the table now.
-
-                <br> There's a key. Will you take it? <br>                
+                <br> Will you take it? <br> 
+                <br>                
                 ";
             
             ?>
 
-            <a href = "./puzzle2.php"><p>Take the key?</p></a>
-            <br>
-            <br>
-            <a href = "./end2.php"><p>Or leave it</p></a>
+            <a href = "./puzzle1.php"><p>Take the key?</p></a>
+  
 
-                   
+            <?php   
+                $_SESSION['endtype'] = "tried to find their own way out and was never seen again!";
+                echo" 
+            
+                    <a href = \"./leaderboard.php\"><p>Or leave it be?</p></a>";
+            echo "<br> <br>";
+            ?>
+                  
         </div>
-       
+        <div id = "bg">
+        <img id="takekeypic" src="./takekey.jpg">
+        </div>
+    
     
         
     </body>

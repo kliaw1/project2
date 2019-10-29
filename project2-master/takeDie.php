@@ -16,10 +16,8 @@
                         echo "<p>Warning!!!Somethng went wrong?! Your progress is currently not being recorded!!</p>";
                     }
             ?>
-
+            <br>
             You look up and the table is gone. Instead, there's a sign on the door that says "Roll the dice before you open me!"
-            <br>
-            <br>
             <br>
             What will you do?
             <br>
@@ -40,7 +38,11 @@
                 echo "<a href = \"./end2.php\"><p>Or don't use it and just open the door?</p></a>";
             ?>            
         </div>
-       
+        <div id = "bg">
+        <img id="takediepic" src="./lostforest.jpg">
+        </div>
+    
+        
     
         
     </body>

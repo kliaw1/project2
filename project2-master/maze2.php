@@ -9,7 +9,7 @@
 
     <body>
         <div id = "maze2">
-            
+        <br>  
             <?php
                 include 'common.php'; //used as a query validator in this assignment
                     if(!(isset($_SESSION['user']))){
@@ -26,15 +26,15 @@
                 ";
             
             ?>
-
             <a href = "./havekey.php"><p> I dont want to make my own choice! Roll the dice.</p></a>
+        
+            <a href = "./end3.php"><p>I am fully of making my own decisions. I want to pick a path.</p></a>   
             <br>
             <br>
-            <a href = "./end3.php"><p>I am fully of making my own decisions. I want to pick a path.</p></a>
-
-                   
         </div>
-       
+        <div id = "bg">
+          <img id="maze" src="./mazepic2.jpeg">
+         </div>
     
         
     </body>

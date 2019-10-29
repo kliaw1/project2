@@ -28,13 +28,16 @@
             ?>
 
             <a href = "./puzzle1.php"><p>Take the key?</p></a>
-            <br>
-            <br>
+    
             <a href = "./end2.php"><p>Or leave it</p></a>
-
+            <br>
+            <br>
                    
         </div>
-       
+        <div id = "bg">
+        <img id="takekeypic" src="./takekey.jpg">
+        </div>
+    
     
         
     </body>
