@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <div id = "startroom">
+        <div id = "havekey">
             
             <?php
                 include 'common.php'; //used as a query validator in this assignment
@@ -17,16 +17,15 @@
                     }
             ?>
 
-            Oh? Your room looks...nonexistent??? What happened?
+            You finally make it out of the maze. The dice knew the way all along. You decide not to question it anymore.
+            There is now a giant door with a key hole. Do you have the key?
             <br>
-            <a href = "./enterDoor.php"><p>Will you go in?</p></a>
+            <a href = "./end1.php"><p>Yes!!</p></a>
             <br>
-            <a href = "./end2.php"><p>Or will you close the door?</p></a>
+            <a href = "./end3.php"><p>Oh no... I don't...</p></a>
 
             
         </div>
-       
-        4
-        
+    
     </body>
 </HTML>

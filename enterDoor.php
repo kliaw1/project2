@@ -29,7 +29,7 @@
             <a href = "./takeDie.php"><p>Take the dice?</p></a>
             <br>
             <br>
-            <a href = "./end1.php"><p>Or leave it behind?</p></a>
+            <a href = "./end2.php"><p>Or leave it behind?</p></a>
 
             
         </div>

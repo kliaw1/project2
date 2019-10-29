@@ -37,7 +37,7 @@
                     echo "<a href = \"./RollDice2.php\"><p>Roll the dice?</p></a>";
 
                 }
-                echo "<a href = \"./end1.php\"><p>Or don't use it and just open the door?</p></a>";
+                echo "<a href = \"./end2.php\"><p>Or don't use it and just open the door?</p></a>";
             ?>            
         </div>
        

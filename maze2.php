@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <div id = "rolldiceLess3">
+        <div id = "maze2">
             
             <?php
                 include 'common.php'; //used as a query validator in this assignment
@@ -18,19 +18,19 @@
                     $roll = $_SESSION['diceroll'];
             
                 echo "
-                You rolled a $roll and open the door and walk in. It's still not your room and there's another table in front of you.
+                You rolled a $roll and trusted the dice. You go through the left path. You keep going and reach another two way path.
 
-                <br> You turn around. The door is gone. You turn back and there's a key on the table now.
+                <br> The dice seems like its sentient and knows what way to go, but that freaks you out a little.
 
-                <br> There's a key. Will you take it? <br>                
+                <br> Do you trust the dice to pick for you again or do you want to put faith in yourself? <br>                
                 ";
             
             ?>
 
-            <a href = "./puzzle2.php"><p>Take the key?</p></a>
+            <a href = "./havekey.php"><p> I dont want to make my own choice! Roll the dice.</p></a>
             <br>
             <br>
-            <a href = "./end2.php"><p>Or leave it</p></a>
+            <a href = "./end3.php"><p>I am fully of making my own decisions. I want to pick a path.</p></a>
 
                    
         </div>

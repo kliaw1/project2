@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <div id = "startroom">
+        <div id = "maze1">
             
             <?php
                 include 'common.php'; //used as a query validator in this assignment
@@ -17,16 +17,21 @@
                     }
             ?>
 
-            Oh? Your room looks...nonexistent??? What happened?
+            You come across a giant maze, and enter it. There is a left path and a right path. Do you trust your luck and just go a random path, 
+            or use the dice to pick the path for you?
             <br>
-            <a href = "./enterDoor.php"><p>Will you go in?</p></a>
             <br>
-            <a href = "./end2.php"><p>Or will you close the door?</p></a>
+            <br>
+            <br>
 
-            
+           
+            <a href = "./maze2.php"><p>Roll the dice?</p></a>  
+    
+
+            <a href = "./end3.php"><p>Or don't use it and pick one on your own?</p></a>
+                
         </div>
        
-        4
         
     </body>
 </HTML>

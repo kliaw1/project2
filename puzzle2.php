@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <div id = "startroom">
+        <div id = "puzzle2">
             
             <?php
                 include 'common.php'; //used as a query validator in this assignment
@@ -17,16 +17,14 @@
                     }
             ?>
 
-            Oh? Your room looks...nonexistent??? What happened?
+            There is a riddle puzzle in front of you, what is the answer?
             <br>
-            <a href = "./enterDoor.php"><p>Will you go in?</p></a>
+            <a href = "./maze1.php"><p>solve puzzle</p></a>
             <br>
-            <a href = "./end2.php"><p>Or will you close the door?</p></a>
+            <a href = "./end3.php"><p>give up...</p></a>
 
             
         </div>
        
-        4
-        
     </body>
 </HTML>
