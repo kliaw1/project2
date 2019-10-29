@@ -27,10 +27,10 @@
             
             ?>
 
-            <a href = "./end2.php"><p>Take the key?</p></a>
+            <a href = "./puzzle1.php"><p>Take the key?</p></a>
             <br>
             <br>
-            <a href = "./end1.php"><p>Or leave it</p></a>
+            <a href = "./end2.php"><p>Or leave it</p></a>
 
                    
         </div>
