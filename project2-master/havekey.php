@@ -18,14 +18,15 @@
             ?>
             <br>
             You finally make it out of the maze. The dice knew the way all along. You decide not to question it anymore.
-            There is now a giant door with a key hole. Do you have the key?
+            Now, you see a floating door. You turn it but its locked. <br>
+            You have the key right?
             <br>
             <br>
             <a href = "./end1.php"><p>Yes!!</p></a>
-
-            <a href = "./end3.php"><p>Oh no... I don't...</p></a>
-            <br>
-            <br>
+            <?php    
+                $_SESSION['endtype'] = "is a liar. So the door fell and crushed them";
+                echo "<a href = \"./leaderboard.php\"><p> No.. </p></a>";
+            ?>
         </div>
         <div id = "bg">
           <img id="maze" src="./keydoor.jpg">

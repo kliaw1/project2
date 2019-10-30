@@ -5,11 +5,6 @@
     </head>
 
     <body>
-        <div class ="bannerarea">
-            
-            <h1>Sign up was:</h1>
-        
-        </div>
         <div class = "match">
             
             <?php
@@ -17,20 +12,17 @@
                 $user = $_POST["user"];
                 $pass = $_POST["password"];
                 if(!newUser($user, $pass)){
-                    echo "<p>This username is already in use! Try again</p>";
-                
+                    echo "<p>Try again.</p>";
+                    echo "<a href = './index.php'><strong>Go Back.</strong></a>";
                 }else{
-                    echo "<p>Sign up was successful!!</p>";
-                    echo "<a href = \"login.php\"><strong>Please sign in now!!</strong></a>";
-                }
-                
+                    echo "<p>Sign up was successful!</p>";
+                    echo "<a href = \"login.php\"><strong>Please sign in now!</strong></a>";
+                } 
             ?>
-       
         </div>
-       
-        <div id = "intro" style = "margin-top: 15px;">
-               
+        <div id = "bg">
+          <img id="enterDoorpic" src="./enterDoor.jpg">
         </div>
-        
+
     </body>
 </HTML>

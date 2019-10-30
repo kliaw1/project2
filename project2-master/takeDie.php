@@ -28,15 +28,18 @@
 
                 if($roll >=3 ){
                     $_SESSION['diceroll']=$roll;
-                    echo "<a href = \"./RollDice1.php\"><p>Roll the dice?</p></a>";
+                    echo "<a href = \"./RollDice1.php\"><p>Roll the dice?</p></a> ";
                    
                 }else if($roll <=4){
                     $_SESSION['diceroll']=$roll;
-                    echo "<a href = \"./RollDice2.php\"><p>Roll the dice?</p></a>";
+                    echo "<a href = \"./RollDice2.php\"><p>Roll the dice?</p></a> ";
 
                 }
-                echo "<a href = \"./end2.php\"><p>Or don't use it and just open the door?</p></a>";
-            ?>            
+                $_SESSION['endtype'] = "walked in and wandered through an endless void and perished!";
+                echo "<a href = \"./leaderboard.php\"><p>Or don't use it and just open the door?</p></a>
+                <br><br>
+                ";           
+                ?>            
         </div>
         <div id = "bg">
         <img id="takediepic" src="./lostforest.jpg">

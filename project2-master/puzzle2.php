@@ -5,6 +5,8 @@
     <head>
         <title>Dicey Situations</title>
         <link rel = "stylesheet" type = "text/css" href = "./style.css">
+   
+   
     </head>
 
     <body>
@@ -17,14 +19,29 @@
                     }
             ?>
 
-            There is a riddle puzzle in front of you, what is the answer?
+            As you keep walking deeper into the forest, you sense something is... <br>
+            following you? You stop to look around your surroundings.<br>
+            Find the stalker.
             <br>
-            <a href = "./maze1.php"><p>solve puzzle</p></a>
             <br>
-            <a href = "./end3.php"><p>give up...</p></a>
+            <?php    
+                $_SESSION['endtype'] = "was suddenly grabbed by many hands.. and pulled to the ground!!";
+                echo" 
+                    <a href = \"./leaderboard.php\"><p>Whatever. Just keep moving on.</p></a>
+                    <br><br>";
+            ?>
 
-            
         </div>
        
+        <div id = "click">
+          <img id="clickpic" src="./clickforest.jpg" class = "background">
+        
+          <a href="./maze1.php">
+          <img src="hands.png" class="hand" width= "30" height = "48"> </a>
+
+
+        </div>
+    
+
     </body>
 </HTML>
