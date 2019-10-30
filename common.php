@@ -38,7 +38,7 @@ function newUser($user, $pass){
 }
 function leaderboard($user, $end){
 
-        $report = "\r\n".$user." got the ".$end."!!";
+        $report = "\r\n".$user." ".$end."!!";
         $valid = file_put_contents("leaderboard.txt", $report, FILE_APPEND);
 
         if($valid===false){
@@ -46,7 +46,10 @@ function leaderboard($user, $end){
             return false;
 
         }else{
-            echo "<p>There are still other possibilities!
+            echo "<h1> $report </h1>";
+            echo "<p>
+                        <h2>Thank you for playing!!</h2>
+                        But there are still other possibilities!
                         <br>
                     <a href = \"./login.php\">Try again?</a></p>";
 

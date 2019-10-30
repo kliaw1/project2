@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <div id = "rolldiceLess3">
+        <div id = "rolldiceBig3">
             
             <?php
                 include 'common.php'; //used as a query validator in this assignment
@@ -26,15 +26,24 @@
                 ";
             
             ?>
-
-            <a href = "./puzzle1.php"><p>Take the key?</p></a>
             <br>
-            <br>
-            <a href = "./end2.php"><p>Or leave it</p></a>
-
+            <a href = "./puzzle1.php"><p>Take the key? </p></a>
+    
+            <?php   
+                $_SESSION['endtype'] = "tried to find their own way out and was never seen again!";
+                echo" 
+                    
+                    <a href = \"./leaderboard.php\"><p>Or leave it be?</p></a>
+                    <br>
+                    <br>";
+            
+            ?>
                    
         </div>
-       
+        <div id = "bg">
+        <img id="takekeypic" src="./takekey.jpg">
+        </div>
+    
     
         
     </body>

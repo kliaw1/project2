@@ -10,7 +10,7 @@
     <body>
         <div class ="bannerarea">
         
-            <h1>LOGIN</h1>
+            <h2>LOGIN</h2>
         
         </div>
         <div id = 'main'>
@@ -32,5 +32,9 @@
             </div>
             
         </div>
+        <div id = "bg">
+          <img id="enterDoorpic" src="./enterDoor.jpg">
+        </div>
+    
     </body>
 </HTML>

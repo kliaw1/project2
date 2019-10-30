@@ -1,0 +1,90 @@
+a {
+    font-size:15px;
+    font: Tahoma bold;
+     text-align: center;
+     vertical-align: bottom;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 3px solid navy;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+    a:hover, a:active {
+    background-color: navy;
+    color: white;
+  }
+
+body {
+      font-size: 20px;
+  }
+
+html {
+    bottom:0;
+    text-align:center;
+}
+
+/*#startroom, #enterDoor1, #takeDie, #pickupdie,
+#rolldiceless3, #puzzle1, 
+#maze1, #puzzle2, #maze2, #havekey
+{
+    background:linear-gradient(skyblue, navy);
+  
+}*/
+
+img {
+    width: 780px;
+    height: 520px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+  
+}
+.overlay:target{
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 75px auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #fff;
+  border: 1px solid #666;
+  width: 800px;
+  
+  box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  position: relative;
+  
+}
+  .popup .close {
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    top: 10px;
+    right: 10px;
+    opacity: 0.8;
+    transition: all 200ms;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+  }
+  .content {
+    /*max-height: 400px;*/
+    overflow: auto;
+  }
