@@ -8,11 +8,7 @@
     </head>
 
     <body>
-        <div class ="bannerarea">
-            
-            <h1>LEADERBOARD</h1>
-        
-        </div>
+
         <div class = "match">
             
             <?php
@@ -22,16 +18,13 @@
                             
                             $user = $_SESSION['user'];
                             $end = $_SESSION['endtype'];
-
                             
                             if(!(leaderboard($user, $end))){
                                 echo "<strong> Something went wrong in displaying the board</strong>";
                             }
-
                         }else{
                             echo "<strong> Game failed to end completely!!</strong>";
                         }
-
                         
                    
             ?>

@@ -8,11 +8,6 @@
     </head>
 
     <body>
-        <div class ="bannerarea">
-            
-            <h1>Validation was:</h1>
-        
-        </div>
         <div class = "match">
             
             <?php
@@ -51,6 +46,10 @@
         <div id = "intro" style = "margin-top: 15px;">
                
         </div>
+        <div id = "bg">
+          <img id="enterDoorpic" src="./enterDoor.jpg">
+        </div>
+    
         
     </body>
 </HTML>
