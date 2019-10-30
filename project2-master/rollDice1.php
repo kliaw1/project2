@@ -29,7 +29,7 @@
             
             ?>
 
-            <a href = "./puzzle1.php"><p>Take the key?</p></a>
+            <a href = "./puzzle2.php"><p>Take the key?</p></a>
   
 
             <?php   

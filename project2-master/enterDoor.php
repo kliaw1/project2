@@ -26,11 +26,17 @@
             There's a note. It says: Take me. What will you do?
             <br>
             <br>
-            <a href = "./takeDie.php"><p>Take the dice?</p></a>
-        
-            <a href = "./end2.php"><p>Or leave it behind?</p></a>
-            <br>
-            <br>
+            <?php
+                echo "<a href = \"./takeDie.php\"><p>Take the dice?</p></a>";
+                
+                
+                $_SESSION['endtype'] = "was suddenly ambushed and was killed!";
+                echo" 
+                   
+                    <a href = \"./leaderboard.php\"><p>Or leave it behind?</p></a>
+                    <br><br>";
+            
+            ?>
             
         </div>
         <div id = "bg">

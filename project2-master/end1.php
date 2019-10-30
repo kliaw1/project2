@@ -10,7 +10,7 @@
     <body>
         <div class ="bannerarea">
             
-            <h1>You got to an end!</h1>
+            <h1>You got yourself out of a... dicey situation!</h1>
         
         </div>
         <div class = "match">
@@ -21,11 +21,14 @@
                         if(isset($_SESSION['user'])){
                             
                             $msg = $_SESSION['user'];
-                            $_SESSION['endtype'] = "Bad end";
+                            $_SESSION['endtype'] = "beat the game";
 
                             $end = $_SESSION['endtype'];
-                            echo "<strong> Game ended for $msg !</strong>";
-                            echo "<a href = \"./leaderboard.php\"><p> Thank you for playing!!!</p></a>";
+                            echo "<strong> $msg escaped the forest and was finally able to enter their room.</strong>
+                            <br><br>";
+                            echo "<a href = \"./leaderboard.php\">
+                          
+                            <p> Thank you for playing!</p></a>";
 
                         }else{
                             echo "<strong> Game was discontinued for the user !</strong>";

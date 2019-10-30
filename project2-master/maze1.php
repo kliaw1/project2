@@ -17,14 +17,21 @@
                     }
             ?>
             <br>
-            You come across a giant maze, and enter it. There is a left path and a right path. Do you trust your luck and just go a random path, 
+            After looking around you found some hands coming out from the ground? <br>
+            You poked it and it shook your hand... then buried itself into the dirt.<br>
+            ...<br>
+            You continue and come across a giant maze. As you enter, you see a left path and a right path. 
+            <br>Do you trust your luck and go a random path, 
             or use the dice to pick the path for you?
             <br>
             <br>
            
-            <a href = "./maze2.php"><p>Roll the dice!</p></a>  
+            <a href = "./maze2.php"><p>Roll the dice.</p></a>  
 
-            <a href = "./end3.php"><p>Don't use it and pick a path by yourself.</p></a>
+            <?php    
+                $_SESSION['endtype'] = "was ambushed by the bushes of the hedges, and was never seen again";
+                echo "<a href = \"./leaderboard.php\"><p> Believe in yourself! </p></a>";
+            ?>
             <br>
             <br>
         </div>

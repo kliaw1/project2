@@ -9,7 +9,6 @@
 
     <body>
         <div id = "startroom">
-            
             <?php
                 include 'common.php'; //used as a query validator in this assignment
                     if(!(isset($_SESSION['user']))){

@@ -8,11 +8,6 @@
     </head>
 
     <body>
-        <div class ="bannerarea">
-            
-            <h1>Validation was:</h1>
-        
-        </div>
         <div class = "match">
             
             <?php
@@ -27,20 +22,11 @@
                         echo "<p>Password and user doesn't match! Please try again!</p>";
                     }else{
                         
-                       
                             $_SESSION['user'] = $user;
-                        
 
                         $msg = $_SESSION['user'];
-                        echo "<strong> Welcome to DICEY SITUATIONS $msg !</strong><br>";
-                    //Test links:
-                      //  echo "<a href = \"./end1.php\">Test this ending!</a><br>";
-
-                       // echo "<a href = \"./end2.php\">Or test this ending!</a><br>";
-
-                       echo "<a href = \"./startroom.php\">Open your door!!</a><br>";
-                    
-
+                        echo "<h1> Welcome to Dicey Situations $msg!</h1>";
+                        echo "<a href = \"./startroom.php\">Open your door!!</a><br>";
                     }
                 
                 }
